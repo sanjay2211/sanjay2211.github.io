@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?ravjwm');
+  src:  url('fonts/icomoon.eot?ravjwm#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?ravjwm') format('truetype'),
+    url('fonts/icomoon.woff?ravjwm') format('woff'),
+    url('fonts/icomoon.svg?ravjwm#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Electronics:before {
+  content: "\e900";
+}
+.icon-Gifts:before {
+  content: "\e901";
+}
+.icon-Groceries:before {
+  content: "\e902";
+}
+.icon-Home-Improvement:before {
+  content: "\e903";
+}
+.icon-Postage:Income:before {
+  content: "\e904";
+}
+.icon-Regular-Income:before {
+  content: "\e905";
+}
+.icon-Utilities:before {
+  content: "\e906";
+}
